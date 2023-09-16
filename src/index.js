@@ -4,7 +4,7 @@ import { render } from 'react-dom';
 import List from './components/List/List';
 
 document.addEventListener('DOMContentLoaded', () => {
-  const reactNode = document.getElementById('app');
-
+      var reactNode = document.getElementById('app');
+    let c = '';
   render(<List />, reactNode);
 });
