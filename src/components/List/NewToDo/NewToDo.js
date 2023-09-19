@@ -11,7 +11,7 @@ export default class NewToDo extends Component {
   handleChange = event => this.setState({ toDo: event.target.value });
 
   submitTodo = event => {
-    event.preventDefault();
+    // event.preventDefault();
 
     this.props.submit(this.state.toDo);
 
